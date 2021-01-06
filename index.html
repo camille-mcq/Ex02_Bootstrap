@@ -13,20 +13,20 @@
 <body>
   <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-info text-white">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F50520062%2F171175753971%2F1%2Foriginal.jpg?auto=compress&s=53e69ca2e1493adfe6e1192164a0a666" alt="" width="50" height="35" class="d-inline-block align-top">
-          Logo
-        </a>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav"> 
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-          </div>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F50520062%2F171175753971%2F1%2Foriginal.jpg?auto=compress&s=53e69ca2e1493adfe6e1192164a0a666" alt="" width="50" height="35" class="d-inline-block align-top">
+            Logo</a>
         </div>
-      </div>                
+        <div class="position-relative">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"> 
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+            </div>
+          </div>
+        </div>               
     </nav>
 <!--1ère section-->
 <!--Espace blanc au dessus-->
@@ -186,15 +186,18 @@
 <div class="container ">
     <div class="row text-center">
       <div class="col-6">
-        <p class="fs-4">Informations sur la coding coding</p>
-        <p>Ici on a toutes les info sur la coding school qui est une super formation pour apprendre à développer des sites (et des applications) web</p>
+        <p class="fs-5">Informations sur la coding coding</p>
+        <p class="fs-6">Ici on a toutes les info sur la coding school qui est une super formation pour apprendre à développer des sites (et des applications) web</p>
       </div>
       <!--Partie de droite-->
-      <div class="col-6">
-        <form class="d-flex">
-          <p>Newsletter</p>
-          <input class="form-control" type="search" aria-label="Search">
-          <button class="btn btn-dark" type="submit">Subscribe</button>
+      <div class="col-6 align-center">
+        <form class="d-flex col-auto">
+          <div class="d-flex col-auto">
+              <p class="align-center">Newsletter</p>
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+              <button class="btn btn-sm btn-dark" type="submit">Subscribe</button>  
+            </div>
         </form>
       </div>
     </div>
