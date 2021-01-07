@@ -1,0 +1,19 @@
+/*Navbar*/
+nav{
+    background-color: #20496e
+}
+
+/*Section 1*/
+.section_A{
+    background-color: #e2e0e0;
+}
+.text-là{
+   color: #e2e0e0;
+}
+
+/*Cards*/
+.card-img-top{
+    height: 150px;
+    
+    align-items: center;
+}
