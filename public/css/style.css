@@ -2,7 +2,9 @@
 nav{
     background-color: #20496e
 }
-
+.coucou{
+    margin-left: 300px;
+}
 /*Section 1*/
 .section_A{
     background-color: #e2e0e0;
@@ -19,4 +21,12 @@ nav{
 .bg{
     background-color:#20496e;
     color: white;
+}
+/*footer*/
+footer{
+     background-color: #3676bb;
+    color: #ffffff
+}
+.footer_img{
+    width: 300px;
 }
